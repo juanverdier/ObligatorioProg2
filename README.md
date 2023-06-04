@@ -12,4 +12,10 @@ NO eliminar ni modificar este archivo o carpeta oculta.
 
 ------------------********************************------------------------------------
 
+04-Junio-2023
+
+Se detecta un error en la línea 94 del TAD ListaEnlazada:  i=2  es incorrecto, debe ser i=1.
+Procedo a corregirlo así como también los Test Unitarios de dicho TAD. Verficado su correcto funcionamiento.
+
+------------------********************************------------------------------------
 		 
