@@ -18,8 +18,8 @@ class ListaEnlazadaTest {
         prueba.add(5);
         prueba.add(6);
 
-        assertEquals(3, prueba.get(2));
-        assertEquals(6, prueba.get(4));
+        assertEquals(3, prueba.get(1));
+        assertEquals(6, prueba.get(3));
 
         assertTrue(prueba.pertenece(3));
 
@@ -35,7 +35,7 @@ class ListaEnlazadaTest {
         prueba.add(6);
 
         prueba.remove(2);
-        assertNotEquals(3, prueba.get(2));
+        assertNotEquals(3, prueba.get(1));
 
         Integer eliminado = 3;
 
@@ -69,8 +69,8 @@ class ListaEnlazadaTest {
         prueba.addFirst(8);
         prueba.addLast(12);
 
-        assertEquals(8, prueba.get(1));
-        assertEquals(12, prueba.get(3));
+        assertEquals(8, prueba.get(0));
+        assertEquals(12, prueba.get(2));
 
     }
 
@@ -85,11 +85,11 @@ class ListaEnlazadaTest {
 
         prueba.intercambiar(3, 1);
 
-        assertEquals(3, prueba.get(3));
+        assertEquals(3, prueba.get(2));
 
         prueba.intercambiar(5, -1);
 
-        assertEquals(5, prueba.get(1));
+        assertEquals(5, prueba.get(0));
 
     }
 

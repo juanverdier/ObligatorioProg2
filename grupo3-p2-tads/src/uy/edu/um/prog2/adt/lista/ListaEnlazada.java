@@ -91,7 +91,7 @@ public class ListaEnlazada<T> implements MyList<T> {
             return null;
         }
         Nodo temp = primero;
-        for (int i=2;i<=(position);i++){
+        for (int i=1;i<=(position);i++){
             temp=temp.siguiente;
         }
         return (T) temp.value;
