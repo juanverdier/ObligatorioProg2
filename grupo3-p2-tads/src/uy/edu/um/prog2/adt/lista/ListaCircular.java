@@ -92,6 +92,11 @@ public class ListaCircular<T> implements MyList<T> {
     }
 
     @Override
+    public boolean contains(T value) {
+        return false;
+    }
+
+    @Override
     public Iterator<T> iterator() {
         return null;
     }

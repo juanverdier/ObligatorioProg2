@@ -36,4 +36,17 @@ archivos duplicados y revisar el archivo "gitignore" para que se ignoren los arc
 ------------------********************************------------------------------------
 =======
 >>>>>>> parent of 053b989 (Se agrega el método contains al TAD ListEnlazada. Se revisan los TADs Stack, Queue, Hash y Heap. Se revisan Tests Unitarios y se agrega el de searchBinaryTree.)
+
+------------------********************************------------------------------------
+
+05-Junio-2023
+
+Tras revertir los commit señalados con *****  , se procede a realizar las siguientes actualizaciones:
+
+Se crea el método "contains" en el TAD ListaEnlazada. Se revisan y actualizan los TADs ListaEnlazada, Queue, Stack, Heap y Hash.
+Se revisan los Test Unitarios y se agrega el correspondiente al SearchBinaryTree.
+Se procede a eliminar los archivos duplicados (  ._ ) y revisar el archivo "gitignore" para que se ignoren los archivos del tipo "._".
+
+
+------------------********************************------------------------------------
 		 
