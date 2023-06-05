@@ -25,4 +25,12 @@ Se crea el método "contains" en el TAD ListaEnlazada. Se revisan y actualizan l
 Se revisan los Test Unitarios y se agrega el correspondiente al SearchBinaryTree.
 
 ------------------********************************------------------------------------
+
+05-Junio-2023
+
+Encontramos archivios del tipo "._xxx.java" que duplican los archivos originales. La fuente del problema podría ser la del uso
+de diferentes sistemas operativos por parte de los integrantes del equipo (Windows, Ubuntu, MacOS). Se procede a eliminar dichos
+archivos duplicados y revisar el archivo "gitignore" para que se ignoren los archivos del tipo "._".
+
+------------------********************************------------------------------------
 		 
