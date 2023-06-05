@@ -18,4 +18,11 @@ Se detecta un error en la línea 94 del TAD ListaEnlazada:  i=2  es incorrecto, 
 Procedo a corregirlo así como también los Test Unitarios de dicho TAD. Verficado su correcto funcionamiento.
 
 ------------------********************************------------------------------------
+
+05-Junio-2023
+
+Se crea el método "contains" en el TAD ListaEnlazada. Se revisan y actualizan los TADs ListaEnlazada, Queue, Stack, Heap y Hash.
+Se revisan los Test Unitarios y se agrega el correspondiente al SearchBinaryTree.
+
+------------------********************************------------------------------------
 		 

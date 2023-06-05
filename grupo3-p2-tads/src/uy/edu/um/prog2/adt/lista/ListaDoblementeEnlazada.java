@@ -146,4 +146,9 @@ public class ListaDoblementeEnlazada<T> implements MyList<T> {
             puntero=puntero.getSiguiente();
         }
     }
+
+    @Override
+    public boolean contains(T value) {
+        return false;
+    }
 }
