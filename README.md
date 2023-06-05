@@ -18,6 +18,7 @@ Se detecta un error en la línea 94 del TAD ListaEnlazada:  i=2  es incorrecto, 
 Procedo a corregirlo así como también los Test Unitarios de dicho TAD. Verficado su correcto funcionamiento.
 
 ------------------********************************------------------------------------
+<<<<<<< HEAD
 
 05-Junio-2023
 
@@ -33,4 +34,6 @@ de diferentes sistemas operativos por parte de los integrantes del equipo (Windo
 archivos duplicados y revisar el archivo "gitignore" para que se ignoren los archivos del tipo "._".
 
 ------------------********************************------------------------------------
+=======
+>>>>>>> parent of 053b989 (Se agrega el método contains al TAD ListEnlazada. Se revisan los TADs Stack, Queue, Hash y Heap. Se revisan Tests Unitarios y se agrega el de searchBinaryTree.)
 		 

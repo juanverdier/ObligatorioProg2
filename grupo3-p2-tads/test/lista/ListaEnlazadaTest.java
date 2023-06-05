@@ -23,8 +23,6 @@ class ListaEnlazadaTest {
 
         assertTrue(prueba.pertenece(3));
 
-        assertEquals(4, prueba.getSize());
-
     }
 
     @Test

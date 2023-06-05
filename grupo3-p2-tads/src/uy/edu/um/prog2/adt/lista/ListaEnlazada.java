@@ -203,18 +203,6 @@ public class ListaEnlazada<T> implements MyList<T> {
         }
     }
 
-    public boolean contains(T value) {
-        boolean contains = false;
-        Nodo temp = this.primero;
-        while (temp != null && !temp.getValor().equals(value)) {
-            temp = temp.getSiguiente();
-        }
-        if (temp != null) {
-            contains = true;
-        }
-        return contains;
-    }
-
     public Iterator<T> iterator() {
         return new MyIteratorListaEnlazada<>(primero);
     }

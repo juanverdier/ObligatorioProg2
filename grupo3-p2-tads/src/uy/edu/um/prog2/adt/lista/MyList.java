@@ -25,6 +25,4 @@ public interface MyList<T> extends Iterable<T> {
 
     void imprimirLista();
 
-    boolean contains(T value);
-
 }
